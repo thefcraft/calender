@@ -19,6 +19,13 @@ and add 1 day for else....
 for python
 ```
 python main.py
+
+or
+
+from main import Calendar
+calendar = Calendar(2, 9, 2023)
+print(calendar)
+print(calendar.nameOfDay) # -> 'Saturday' on 2 sep 2023
 ```
 for c++
 ```
