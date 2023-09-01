@@ -19,9 +19,9 @@ and add 1 day for else....
 for python
 ```
 python main.py
-
+```
 or
-
+```python
 from main import Calendar
 calendar = Calendar(2, 9, 2023)
 print(calendar)
