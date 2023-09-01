@@ -25,7 +25,7 @@ class Calendar:
         output = f"{self.nameOfDay}, {self.day} {self.months[self.month]} {self.year}\n"
         output += 'Su Mo Tu We Th Fr Sa\n'
         idx = 0
-        for i in range((self.totalDaysFromStarting()-2)%7):
+        for i in range((self.totalDaysFromStarting()-self.day)%7):
             output += '   '
             idx += 1
         for i in range(1, self.months[self.month].noOfDays+1):
